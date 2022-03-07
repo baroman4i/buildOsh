@@ -6,7 +6,8 @@
   "scripts": {
     "server": "nodemon index.js",
     "client": "npm run start --prefix ../client",
-    "dev": "npm run server"
+    "dev": "npm run server",
+    "start": "npm run server"
   },
   "author": "Roman Bach",
   "license": "ISC",
