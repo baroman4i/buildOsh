@@ -8,10 +8,10 @@ let themes = JSON.parse(fs.readFileSync("localData.json"));
 dotenv.config();
 const app = express();
 const port = 5000;
-
+app.use(express.static('build'));
 app.use(express.json());
 
-app.get("/", (req, res) => res.sendFile(path.resolve('../index.html')));
+app.get("/", (req, res) => res.sendFile(path.resolve('build/index.html')));
 app.get("/arr", (req, res) =>
   res.json((themes = JSON.parse(fs.readFileSync("localData.json"))))
 );
