@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.61adc53f.chunk.css",
-    "main.js": "/static/js/main.d731d0e1.chunk.js",
-    "main.js.map": "/static/js/main.d731d0e1.chunk.js.map",
+    "main.css": "/static/css/main.eee24690.chunk.css",
+    "main.js": "/static/js/main.cc545b1d.chunk.js",
+    "main.js.map": "/static/js/main.cc545b1d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cf564c0b.js",
     "runtime-main.js.map": "/static/js/runtime-main.cf564c0b.js.map",
     "static/js/2.63e00fda.chunk.js": "/static/js/2.63e00fda.chunk.js",
     "static/js/2.63e00fda.chunk.js.map": "/static/js/2.63e00fda.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.61adc53f.chunk.css.map": "/static/css/main.61adc53f.chunk.css.map",
+    "static/css/main.eee24690.chunk.css.map": "/static/css/main.eee24690.chunk.css.map",
     "static/js/2.63e00fda.chunk.js.LICENSE.txt": "/static/js/2.63e00fda.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/cross-sign.8bfb143b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cf564c0b.js",
     "static/js/2.63e00fda.chunk.js",
-    "static/css/main.61adc53f.chunk.css",
-    "static/js/main.d731d0e1.chunk.js"
+    "static/css/main.eee24690.chunk.css",
+    "static/js/main.cc545b1d.chunk.js"
   ]
 }

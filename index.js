@@ -8,10 +8,10 @@ let themes = JSON.parse(fs.readFileSync("localData.json"));
 dotenv.config();
 const app = express();
 const port = 5000;
-app.use(express.static('build'));
+
 app.use(express.json());
 
-app.get("/", (req, res) => res.sendFile(path.resolve('build/index.html')));
+app.get("/", (req, res) => res.send("Hello World!"));
 app.get("/arr", (req, res) =>
   res.json((themes = JSON.parse(fs.readFileSync("localData.json"))))
 );
@@ -158,7 +158,7 @@ app.post("/delsub", function (req, res) {
 
 app.post("/login", function (req, res) {
   const pass = req.body.pass;
-  const locPass = process.env.pass;
+  const locPass = process.env.pass || 12345;
   console.log(pass, locPass);
   locPass == pass ? res.json(true) : res.json(false);
   res.end();
